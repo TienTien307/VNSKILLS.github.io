@@ -1,0 +1,406 @@
+// $background-color: linear-gradient(270deg, #F47422 0%, #F4A022 100%);
+// $text-color: #F47422;
+// *,
+// *::before,
+// *::after {
+//     box-sizing: border-box;
+// }
+// body {
+//     font-family: 'Roboto', sans-serif;
+// }
+// a:hover {
+//     text-decoration: none;
+//     transition: .5s all;
+// }
+// .header {
+//     width: 80%;
+//     margin: 0 auto;
+//     &-menu {
+//         li {
+//             padding: 0 20px;
+//             button {
+//                 background: $background-color;
+//                 color: white;
+//                 border: none;
+//             }
+//         }
+//         a {
+//             color: black !important;
+//             font-weight: 500;
+//         }
+//     }
+// }
+// .banner {
+//     max-width: 100%;
+//     margin-bottom: 80px;
+//     &-img {
+//         max-width: 100%;
+//     }
+// }
+.session {
+    margin-bottom: 80px;
+    &-title {
+        text-align: center;
+        margin-bottom: 4rem;
+        &-p {
+            margin: 0 auto;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16px;
+            color: $text-color;
+            letter-spacing: 3px;
+        }
+        &-h1 {
+            padding: 5px 0;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 109.12%;
+        }
+        &:after {
+            content: url(../img/Group24.3.png);
+        }
+    }
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.learn-box {
+    color: #333333;
+    line-height: 25px;
+    img {
+        width: 100%;
+    }
+    &-info {
+        padding: 0.7rem 1rem;
+        h4 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        &-list {
+            transition: .4s all;
+            &:before {
+                content: url(../img/Group-19.png);
+                margin-right: 5px;
+            }
+            a {
+                font-size: 14px;
+                color: #333333;
+                &:hover {
+                    color: $text-color;
+                }
+            }
+            &:hover {
+                padding-left: 5px;
+            }
+        }
+    }
+    &-item {
+        min-height: 420px;
+        margin-top: 15px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+    }
+}
+
+.session2 {
+    background: url(../img/bg-light.png);
+    padding: 4rem;
+    &-item {
+        margin: 0 auto;
+        a {
+            color: rgb(144, 141, 141);
+            font-weight: 500;
+            &:active {
+                background: transparent !important;
+                color: $text-color;
+            }
+        }
+    }
+    &-table {
+        max-width: 100%;
+        ul {
+            margin: 0 auto;
+        }
+        &-content {
+            margin-bottom: 1rem;
+            font-size: 14px;
+            color: rgb(144, 141, 141) !important;
+            thead {
+                font-size: 14px;
+                color: white;
+                font-weight: 500;
+                background: $background-color;
+            }
+            &-uppercase {
+                color: black;
+                text-transform: uppercase;
+                font-weight: 500;
+            }
+            button {
+                font-size: 12px;
+                color: white;
+                font-weight: 500px;
+                background: rgb(51, 189, 27);
+                border: none;
+            }
+            tbody {
+                tr:nth-child(even) {
+                    background: rgb(246, 241, 241);
+                }
+            }
+        }
+        &-blackColor {
+            color: black !important;
+        }
+    }
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: transparent;
+    color: $text-color;
+}
+
+.session3 {
+    padding: 6rem;
+    background-image: url(../img/bg-dark.png);
+    margin-bottom: 80px;
+    &-img {
+        max-width: 100%;
+        padding-right: 3rem;
+    }
+    &-title {
+        max-width: 100%;
+    }
+    &-benefit {
+        text-align: left;
+        h1 {
+            color: white;
+        }
+    }
+    &-content {
+        color: rgb(214, 212, 212);
+        font-size: 14px;
+        line-height: 25px;
+        &-list {
+            &::before {
+                font-family: "fontawesome";
+                content: "\f058";
+                margin-right: 10px;
+                color: $text-color;
+            }
+        }
+    }
+}
+
+.session4 {
+    margin-bottom: 80px;
+    img {
+        max-width: 100%;
+    }
+    &-list {
+        margin-top: 20px;
+    }
+    &-item {
+        margin: 0px 0px 27px 0px;
+    }
+    &-button {
+        text-align: center;
+        button {
+            background: $background-color;
+            color: white;
+            border: none;
+        }
+    }
+}
+
+.session5 {
+    background-image: url(../img/bg-light.png);
+    margin-bottom: 80px;
+    padding: 4rem;
+    &-title {
+        text-align: left;
+        margin-bottom: 60px;
+    }
+    &-feedback {
+        display: flex;
+        &-text {
+            line-height: 20px;
+            background: #FFFFFF;
+            border-radius: 10px;
+            color: #666666;
+            line-height: 30x;
+            padding: 20px 30px;
+            i {
+                font-size: 20px;
+                padding: 10px;
+                color: white;
+                background: $background-color;
+                border-radius: 50%;
+                position: absolute;
+                float: left;
+                margin-left: -40px;
+            }
+            p {
+                font-size: 14px;
+            }
+            h5 {
+                color: #222222;
+            }
+        }
+        &-icon {
+            top: 20%;
+            position: absolute;
+        }
+        &-avt {
+            position: relative;
+            top: -90px;
+            margin-bottom: -60px;
+            margin-left: 330px;
+        }
+    }
+}
+
+.session6 {
+    margin-bottom: 80px;
+    img {
+        max-width: 100%;
+    }
+    &-news {
+        margin-top: 25px;
+    }
+    &-text {
+        width: 100%;
+        background: #ffffff;
+        padding: 15px;
+        border-radius: 10px 0px 0px 0px;
+        position: relative;
+        margin: -20px 20px;
+        h4 {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 14px;
+            color: #666666;
+            line-height: 20px;
+            margin-bottom: 10px;
+        }
+        a {
+            font-size: 14px;
+            color: $text-color;
+            &:hover {
+                padding-left: 5px;
+            }
+        }
+    }
+}
+
+.session7 {
+    background-image: url(../img/bg-light.png);
+    padding: 20px 0;
+    img {
+        max-width: 100%;
+    }
+}
+
+.footer {
+    padding-top: 50px;
+    color: white;
+    background-image: url(../img/bg-dark.png);
+    line-height: 25px;
+    font-size: 14px;
+    &-content {
+        h4 {
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        &-text {
+            margin-top: 30px;
+            color: #A4A8B0;
+            i {
+                color: $text-color !important;
+                font-weight: bold;
+            }
+            span {
+                color: white;
+                font-weight: bold;
+            }
+        }
+        img {
+            max-width: 100%;
+        }
+    }
+    &-addicon {
+        margin-top: 20px;
+    }
+    ul {
+        margin-top: 20px;
+        li {
+            color: #A4A8B0;
+            &::before {
+                content: " > ";
+                margin-right: 5px;
+                color: $text-color;
+            }
+        }
+    }
+    &-text {
+        max-width: 80%;
+        margin: 20px auto;
+        text-align: center;
+        color: #656E81;
+    }
+    &-bottom {
+        width: 100%;
+        color: #A4A8B0;
+        padding: 10px;
+        text-align: center;
+        border-top: 1px solid #A4A8B0;
+    }
+}
+
+#session2-2 {
+    display: none;
+    &-button {
+        width: 100%;
+        background: $background-color;
+        padding: 10px;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+    i {
+        float: right;
+    }
+    table {
+        color: black;
+    }
+    thead {
+        background: #E0E0E0;
+        color: black;
+    }
+}
+
+@media(max-width:991px) {
+    .header {
+        width: 100%;
+        &-logo {
+            margin: 0;
+        }
+    }
+}
+
+@media(max-width:770px) {
+    #session2-1 {
+        display: none;
+    }
+    #session2-2 {
+        display: block;
+    }
+}

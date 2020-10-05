@@ -1,0 +1,213 @@
+$background-color: linear-gradient(270deg, #F47422 0%, #F4A022 100%);
+$text-color: #F47422;
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+hr {
+    margin: 50px 0px;
+}
+
+.header {
+    width: 80%;
+    margin: 0 auto;
+    &-menu {
+        li {
+            padding: 0 20px;
+            button {
+                background: $background-color;
+                color: white;
+                border: none;
+            }
+        }
+        a {
+            color: black !important;
+            font-weight: 500;
+        }
+    }
+}
+
+.session {
+    margin-top: 80px;
+    &-title {
+        text-align: center;
+        margin-bottom: 80px;
+        h3 {
+            font-size: 18px;
+            color: $text-color;
+            letter-spacing: 3px;
+        }
+        p {
+            color: rgb(95, 94, 94);
+        }
+        span {
+            color: black;
+        }
+    }
+    &-content {
+        img {
+            margin-bottom: 30px;
+        }
+        p {
+            color: #666666;
+            line-height: 25px;
+            padding: 10px 0px;
+        }
+        span {
+            color: black;
+            font-weight: 550;
+        }
+        .button {
+            border-radius: 5px;
+            border: none;
+            padding: 10px;
+            margin-left: 5px;
+            color: white;
+            &-btn1 {
+                background: #00A3FF;
+            }
+            &-btn2 {
+                background: #0364BD;
+            }
+        }
+    }
+}
+
+.author {
+    img {
+        margin: 15px;
+    }
+    &-info {
+        padding-left: 10px;
+        p {
+            color: #666666;
+        }
+    }
+    &-icon {
+        padding-left: 10px;
+        i {
+            font-size: 26px;
+            margin: 0 5px;
+            color: #00A3FF;
+        }
+    }
+}
+
+.other {
+    &-news {
+        img {
+            width: 100%;
+        }
+        margin-top: 15px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+    }
+    &-text {
+        padding: 20px 15px;
+        h4 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        p {
+            color: rgb(136, 135, 135);
+        }
+        span {
+            color: black;
+        }
+    }
+}
+
+.comment {
+    color: #666666;
+    h4 {
+        color: #2c2c2c;
+    }
+    img {
+        margin: 10px;
+    }
+    &-text {
+        &-time {
+            margin-bottom: 10px;
+            display: flex;
+            p {
+                padding-top: 10px;
+            }
+            button {
+                font-size: 12px;
+                padding: 5px;
+                margin-left: 10px;
+                background: #F8F8F8;
+                border: 1px solid #E9E9E9;
+                box-sizing: border-box;
+                border-radius: 4px;
+            }
+        }
+    }
+}
+
+.footer {
+    margin-top: 80px;
+    color: #A4A8B0;
+    background: #1E3241;
+    line-height: 25px;
+    font-size: 14px;
+    &-content {
+        padding: 50px 0px;
+        img {
+            max-width: 100% !important;
+            margin-bottom: 25px;
+        }
+        ul {
+            list-style: none;
+            margin-left: -35px;
+        }
+        h4 {
+            font-size: 14px;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        &-text {
+            margin-top: 30px;
+            color: #A4A8B0;
+            span {
+                color: white;
+            }
+        }
+        img {
+            max-width: 100%;
+        }
+    }
+    &-addicon {
+        h4 {
+            margin-bottom: 40px;
+        }
+        li {
+            &::before {
+                content: ">";
+                margin-right: 5px;
+                color: $text-color;
+            }
+        }
+    }
+    &-bottom {
+        width: 100%;
+        color: #A4A8B0;
+        padding: 10px;
+        text-align: center;
+        border-top: 1px solid #A4A8B0;
+    }
+}
